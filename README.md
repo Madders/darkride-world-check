@@ -37,7 +37,7 @@ python3 world_check.py --bind 127.0.0.1 --port 8711 --trust-proxy
 ```
 
 Put it behind a reverse proxy with HTTPS (Caddy: `reverse_proxy 127.0.0.1:8711`), and enter the URL in the world
-server's settings (Networking > *Outside check service*).
+server's settings (Settings > Connection > *Outside check service*).
 
 ```http
 POST /check
